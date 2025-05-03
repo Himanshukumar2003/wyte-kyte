@@ -1326,3 +1326,35 @@ overflow: hidden;
 .show {
 	opacity: 1 !important;
 }
+
+.footer-logo{
+	width: 540px;
+}
+
+@media (max-width: 991px) {
+.footer-logo{
+	width: 340px;
+}
+
+.portfolio-detties{
+	padding: 0px 20px ;
+}
+
+.bottom-footer{
+	gap: 20px;
+	text-align: center;
+	flex-direction: column-reverse;
+}
+.footer-list ul{
+	flex-wrap: wrap;
+}
+
+}
+
+
+@media (max-width: 786px) {
+	.footer-logo{
+		width: 200px;
+	}	
+	}
+	
