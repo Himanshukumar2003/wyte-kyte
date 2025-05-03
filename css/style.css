@@ -1583,8 +1583,14 @@ h1 b {
 }
 
 @media (max-width: 991px) {
+	.main-slider{
+margin-bottom: 0px;
+	}
 .design-img{
 	display: none !important;
+}
+.stats-container{
+	flex-direction: column;
 }
 
 .social-icons{
@@ -1642,6 +1648,9 @@ h1 b {
 
 
 @media (max-width: 786px) {
+	.author-img {
+		margin-bottom: 0px;
+	}
 	.footer-logo {
 		width: 200px;
 	}
