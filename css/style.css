@@ -1538,6 +1538,11 @@ h1 b {
 .clients-logos img {
 	object-fit: contain;
 }
+.dropdown-item:active{
+	color: #000000;
+    background-color: transparent !important;
+}
+
 
 
 
@@ -1650,7 +1655,7 @@ margin-bottom: 0px;
 
 
 @media (max-width: 767px) {
-	
+
 	.testimonial-heading{
 		display: none;
 	}
