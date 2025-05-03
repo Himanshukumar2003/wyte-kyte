@@ -1589,8 +1589,8 @@ h1 b {
 
 .social-icons{
 	flex-direction: row;
-    top: 65%;
-	left: 10%;
+    top: 50%;
+	left: 20%;
 }
 
 	.navbar-nav {
