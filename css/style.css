@@ -30,7 +30,7 @@ p,a,li,span{
 }
 
 section{overflow: hidden;}
-.footer{
+.footer, .bottom-footer,.main-slider{
 	overflow: hidden;
 }
 
