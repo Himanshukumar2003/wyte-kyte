@@ -29,10 +29,15 @@ p,a,li,span{
 	font-family: 'Montserrat', sans-serif;;
 }
 
-section{overflow: hidden;}
-.footer, .bottom-footer,.main-slider{
-	overflow: hidden;
+
+.navbar,
+section,
+.footer,
+.bottom-footer,
+.main-slider {
+  overflow: hidden !important;
 }
+
 
 
 body{
