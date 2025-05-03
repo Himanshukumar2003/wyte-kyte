@@ -1355,6 +1355,18 @@ overflow: hidden;
 @media (max-width: 786px) {
 	.footer-logo{
 		width: 200px;
-	}	
+	}
+
+	.portfolio2{
+		display: none !important;
+	}
+
+	.portfolio-images{
+		margin: 0;
+	}
+
+	.latest-news{
+		margin-top: 0px;
+	}
 	}
 	
