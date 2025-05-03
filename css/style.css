@@ -29,6 +29,11 @@ p,a,li,span{
 	font-family: 'Montserrat', sans-serif;;
 }
 
+section{overflow: hidden;}
+.footer{
+	overflow: hidden;
+}
+
 
 body{
 	overflow-x: hidden;
