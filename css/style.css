@@ -1576,6 +1576,12 @@ h1 b {
 	width: 540px;
 }
 
+
+.footer-list li a{
+	text-decoration: none;
+	color: white;
+}
+
 @media (max-width: 991px) {
 	.navbar-nav {
 		margin-top: 10px;
