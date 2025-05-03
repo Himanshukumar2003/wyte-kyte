@@ -1583,6 +1583,16 @@ h1 b {
 }
 
 @media (max-width: 991px) {
+.design-img{
+	display: none !important;
+}
+
+.social-icons{
+	flex-direction: row;
+    top: 65%;
+	left: 10%;
+}
+
 	.navbar-nav {
 		margin-top: 10px;
 	}
@@ -1600,7 +1610,7 @@ h1 b {
 	}
 
 	.nav-item {
-		margin-bottom: 10px;
+		padding: 15px 0;
 		border-bottom: 1px solid #f5f5f5;
 	}
 
