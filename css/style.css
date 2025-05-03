@@ -1659,7 +1659,8 @@ margin-bottom: 0px;
 	display: none;
 }
 .main-slider {
-	height: 60vh;
+	height: auto;
+	
 }
 
 
