@@ -1601,9 +1601,7 @@ margin-bottom: 0px;
 }
 
 .social-icons{
-	flex-direction: row;
-    top: 55%;
-	left: 15%;
+	display: none;
 }
 
 	.navbar-nav {
@@ -1655,12 +1653,17 @@ margin-bottom: 0px;
 
 
 @media (max-width: 767px) {
+
+	section{
+		padding: 30px 0;
+	}
+
 .border{
 	display: none;
 }
 .main-slider {
 	height: auto;
-	padding: 40px 0;
+	padding: 40px 0 ;
 	
 }
 
