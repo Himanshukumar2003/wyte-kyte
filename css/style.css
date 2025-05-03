@@ -138,7 +138,7 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 30px;
 	transform: translateY(-50%);
 }
@@ -1655,7 +1655,9 @@ margin-bottom: 0px;
 
 
 @media (max-width: 767px) {
-
+.border{
+	display: none;
+}
 .main-slider {
 	height: 60vh;
 }
