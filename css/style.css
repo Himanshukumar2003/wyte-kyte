@@ -1656,6 +1656,11 @@ margin-bottom: 0px;
 
 @media (max-width: 767px) {
 
+.main-slider {
+	height: 70vh;
+}
+
+
 	.testimonial-heading{
 		display: none;
 	}
