@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .main-slider{
+      background: url('img/carousel-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .slider-section .swiper-slide.swiper-slide-active{
+      overflow: visible;
+    }
+    .slider-section .swiper-slide.swiper-slide-active{
+
+    }
+    .slider-section{
+      margin-bottom: 80px;
+    }
+    .slider-section .swiper-slide.swiper-slide-active .wheel-content{
+      top: auto;
+      bottom: -140px;
+      background: transparent;
+      height: auto;
+      justify-content: flex-start;
+    }
+    .slider-section .swiper-slide .single{
+      box-shadow: none;
+    }
+    .slider-section .swiper-slide .wheel-content h6{
+      color: green;
+    }
+    .slider-section .swiper-slide .wheel-content p{
+      
+      color: black;
+    }
+    .main-slider-slide h1{
+      font-size: 50px;
+    }
+    .main-slider-slide p{
+      font-size: 22px;
+    }
+    .design-img{
+      width: 650px;
+    }
+    .blogs{
+      margin-top: 80px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" alt="Avatar Logo" class="rounded-pill"> 
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="about.html">About us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Solutions
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="commercial-interiors.html">Commercial Interiors</a></li>
+            <li><a class="dropdown-item" href="furniture.html">Furniture</a></li>
+            <li><a class="dropdown-item" href="residential.html">Residential</a></li>
+          </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="resources.html">resources</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">contact us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="main-slider">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-5">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="main-slider-slide">
+                <h1 data-aos="fade-up" data-aos-delay="300"><b>RESIDENTIAL<br>INTERIORS</b></h1>
+                <p data-aos="fade-up" data-aos-delay="600"><i>Transforming Spaces into <br>Statements of Luxury</i></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="main-slider-slide">
+                <h1 data-aos="fade-up" data-aos-delay="300"><b>RESIDENTIAL<br>INTERIORS</b></h1>
+                <p data-aos="fade-up" data-aos-delay="600"><i>Creating Homes, <br>Crafting Timeless Memories</i></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="main-slider-slide">
+                <h1 data-aos="fade-up" data-aos-delay="300"><b>RESIDENTIAL<br>INTERIORS</b></h1>
+                <p data-aos="fade-up" data-aos-delay="600"><i>Your Vision, Our Design- A Journey<br> Towards Your Dream Home</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        
+      </div>
+    </div>
+  </div>
+  <div class="design-img">
+    <img src="img/residential-img.png" data-aos="fade-left" data-aos-delay="900" class="w-100" alt="">
+  </div>
+</div>
+<section class="icon-section">
+  <div class="container">
+    <h1 class="text-center" data-aos="fade-up"><b>Resonating with Homeowners</b></h1>
+    <p class="text-center" data-aos="fade-up" data-aos-delay="300">The Challenges You Face<br>Designing a dream home comes with its share of complexities</p>
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-3 mb-3">
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+          <img src="img/icon18.png" alt="">
+          <p><b>Maximizing limited space without compromising on elegance</b></p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="icon-box"  data-aos="fade-up" data-aos-delay="200">
+          <img src="img/icon15.png" alt="">
+          <p><b>Harmonizing aesthetics with everyday functionality</b></p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="icon-box"  data-aos="fade-up" data-aos-delay="300">
+          <img src="img/icon19.png" alt="">
+          <p><b>Balancing your personal style with timeless sophistication</b></p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+          <img src="img/icon14.png" alt="">
+          <p><b>Ensuring every detail reflects luxury while staying true to your vision</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-cta">
+  <div class="container">
+    <p class="text-center mb-0" data-aos="fade-up">At Wyte Kyte, we transform these challenges into opportunities—creating<br> bespoke interiors that elevate your lifestyle, reflect your individuality, and<br> surround you with unmatched comfort and style.</p>
+  </div>
+</section>
+<section class="aspiration">
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-6">
+        <h4 data-aos="fade-up">Your Aspirations</h4>
+        <p class="" data-aos="fade-up" data-aos-delay="300">Imagine a home that tells your unique story- an abode of elegance, comfort, and personality. Whether it’s transforming living spaces into refined retreats, crafting family areas for warmth and connection, or maximizing luxury in every corner, our designs align with your dreams to create truly extraordinary homes.</p>
+      </div>
+      <div class="col-md-6">
+        <div class="asipration-img">
+          <img src="img/aspiration1.png" data-aos="fade-left" data-aos-delay="600" alt="">
+          <img src="img/aspiration2.png" data-aos="fade-left" data-aos-delay="900" alt="">
+          <img src="img/aspiration3.png" data-aos="fade-left" data-aos-delay="1200" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="design-power">
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-6">
+        <div class="position-relative">
+          <img src="img/radius-circle.png" data-aos="zoom-in" data-aos-delay="100" class="w-100 absolute-img z-3" alt="">
+          <img src="img/radius-1.png" data-aos="zoom-in" data-aos-delay="200" class="w-100 absolute-img" alt="">
+          <img src="img/radius-2.png" data-aos="zoom-in" data-aos-delay="300" class="w-100 absolute-img" alt="">
+          <img src="img/radius-3.png" data-aos="zoom-in" data-aos-delay="400" class="w-100 absolute-img" alt="">
+          <img src="img/radius-4.png" data-aos="zoom-in" data-aos-delay="400" class="w-100 absolute-img" alt="">
+          <img src="img/radius-blank.png" class="w-100" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+          <h4 class="text-end mb-4" data-aos="fade-left" >Why do you need good Interiors?</h4>
+        <div class="chevron-box" data-aos="fade-left" data-aos-delay="100">
+          <div class="chevron-content">
+            <h6>More Than Just Aesthetic Appeal</h6>
+            <p>Great design isn’t just about looks- it’s about how a space makes you feel, how it fosters connections, and how it supports your everyday life.</p>
+          </div>
+          <div class="chevron-icon">
+            <img src="img/chevron.png" alt="">
+          </div>
+        </div>
+        <div class="chevron-box" data-aos="fade-left" data-aos-delay="200">
+          <div class="chevron-content">
+            <h6>Where Function Meets Beauty</h6>
+            <p>We combine purpose-driven design with timeless style, ensuring your home not only looks stunning but also works seamlessly for your needs.</p>
+          </div>
+          <div class="chevron-icon">
+            <img src="img/chevron.png" alt="">
+          </div>
+        </div>
+        <div class="chevron-box" data-aos="fade-left" data-aos-delay="300">
+          <div class="chevron-content">
+            <h6>Innovative Solutions for Better Living</h6>
+            <p>We bring fresh, forward-thinking design to optimize your space, enhancing both its beauty and functionality in ways you never imagined.</p>
+          </div>
+          <div class="chevron-icon">
+            <img src="img/chevron.png" alt="">
+          </div>
+        </div>
+        <div class="chevron-box" data-aos="fade-left" data-aos-delay="400">
+          <div class="chevron-content">
+            <h6>Maximizing Every Corner</h6>
+            <p>Whether large or small, every square foot of your home is designed to serve a purpose, balancing practicality with style for a space that feels just right.</p>
+          </div>
+          <div class="chevron-icon">
+            <img src="img/chevron.png" alt="">
+          </div>
+        </div>
+        <div class="chevron-box" data-aos="fade-left" data-aos-delay="500">
+          <div class="chevron-content">
+            <h6>A True Reflection of You</h6>
+            <p>Your home should be more than just a place to live- it should reflect your values, aspirations, and dreams.</p>
+          </div>
+          <div class="chevron-icon">
+            <img src="img/chevron.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="line-brush">
+          <img src="img/brush-line.png" alt="" class="w-100">
+          <p class="mb-0 text-center"  data-aos-delay="100">At Wyte Kyte, we bring that vision to life, one room at a time.</p>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</section>
+<section class="slider-section">
+  <div class="container">
+    <h1 class="text-center mb-5" data-aos="fade-up"><b>Our Residential Interior Services</b></h1>
+    <div class="carousel"  data-aos="fade-up">
+      <div class="rotating-sldier swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Tailored Design Solutions</h6>
+                  <p>From concept to completion, we offer fully personalized designs that reflect your unique style, needs, and aspirations.</p>
+                </div>
+              </div>
+              <img src="img/residential1.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Space Planning & Optimization</h6>
+                  <p>Make the most of every inch of your home with intelligent layouts that maximize functionality and flow.</p>
+                </div>
+              </div>
+              <img src="img/residential2.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Luxury Finishes & Materials</h6>
+                  <p>Our attention to detail and material selection guarantees a finish that speaks of quality and timeless elegance.</p>
+                </div>
+              </div>
+              <img src="img/residential3.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Furniture & Decor Curation</h6>
+                  <p>Each piece is thoughtfully chosen or custom-designed to harmonize with your overall vision and lifestyle.</p>
+                </div>
+              </div>
+              <img src="img/residential4.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Home Automation</h6>
+                  <p>We integrate smart technologies that enhance your comfort and convenience, allowing you to control lighting, temperature, entertainment, and more at the touch of a button.</p>
+                </div>
+              </div>
+              <img src="img/residential5.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Advanced Security Systems</h6>
+                  <p>Protect your loved ones and valuables with cutting-edge security solutions that offer 24/7 monitoring, smart access, and real-time alerts tailored to your home.</p>
+                </div>
+              </div>
+              <img src="img/residential6.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Renovation & Remodelling</h6>
+                  <p>Revitalize your existing spaces with modern designs that blend seamlessly with your personal taste.</p>
+                </div>
+              </div>
+              <img src="img/residential7.png" alt="" />
+            </div>
+          </div>
+          <!-- ----------------- -->
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Tailored Design Solutions</h6>
+                  <p>From concept to completion, we offer fully personalized designs that reflect your unique style, needs, and aspirations.</p>
+                </div>
+              </div>
+              <img src="img/residential1.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Space Planning & Optimization</h6>
+                  <p>Make the most of every inch of your home with intelligent layouts that maximize functionality and flow.</p>
+                </div>
+              </div>
+              <img src="img/residential2.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Luxury Finishes & Materials</h6>
+                  <p>Our attention to detail and material selection guarantees a finish that speaks of quality and timeless elegance.</p>
+                </div>
+              </div>
+              <img src="img/residential3.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Furniture & Decor Curation</h6>
+                  <p>Each piece is thoughtfully chosen or custom-designed to harmonize with your overall vision and lifestyle.</p>
+                </div>
+              </div>
+              <img src="img/residential4.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Home Automation</h6>
+                  <p>We integrate smart technologies that enhance your comfort and convenience, allowing you to control lighting, temperature, entertainment, and more at the touch of a button.</p>
+                </div>
+              </div>
+              <img src="img/residential5.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Advanced Security Systems</h6>
+                  <p>Protect your loved ones and valuables with cutting-edge security solutions that offer 24/7 monitoring, smart access, and real-time alerts tailored to your home.</p>
+                </div>
+              </div>
+              <img src="img/residential6.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="single">
+              <div class="wheel-content">
+                <div>
+                  <h6>Renovation & Remodelling</h6>
+                  <p>Revitalize your existing spaces with modern designs that blend seamlessly with your personal taste.</p>
+                </div>
+              </div>
+              <img src="img/residential7.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <img src="img/arrow-right.png">
+        </div>
+        <div class="swiper-button-prev">
+          <img src="img/arrow-left.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <h5 class="text-center" data-aos="fade-up" style="color:var(--green);">Tailored Design Solutions</h5>
+  <p class="text-center" data-aos="fade-up">From concept to completion, we offer fully<br> personalized designs that reflect your unique style,<br> needs, and aspirations.</p> -->
+</section>
+<section class="portfolio px-0 pb-0 overflow-hidden">
+  <div class="container-fluid p-0">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <div class="portfolio-content">
+          <div>
+            <h1 data-aos="fade-up" data-aos-delay="100">Our <b>Projects Portfolio</b></h1>
+            <p data-aos="fade-up" data-aos-delay="200">Wyte Kyte's project portfolio showcases exceptional corporate and residential designs. From modern offices to elegant home interiors, each project embodies creativity, functionality, and a commitment to transforming spaces into funspiring environments. Discover how we bring spaces to life with personalized and innovative solutions.</p>
+            <div class="portfolio-images">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="img/portfolio1.png" data-aos="fade-right" data-aos-delay="300" class="w-100" alt="">
+                </div>
+                <div class="col-md-6">
+                  <img src="img/portfolio2.png" data-aos="fade-right" data-aos-delay="400" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+            <a href="portfolio.html" class="mt-4 read-more" data-aos="fade-up" data-aos-delay="500">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="img/portfolio-img.png" data-aos="fade-left" data-aos-delay="600" class="w-100" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="stats-ssection">
+  <div class="container">
+    <div class="stats-container">
+      <div data-aos="fade-left">
+        <div class="stat-box">
+          <div class="stats-img">
+            <h1><b><span class="counter">20</span>+</b></h1>
+          </div>
+          <p>Years of industry-leading experience.</p>
+        </div>
+      </div>
+      <div data-aos="fade-left" data-aos-delay="100">
+        <div class="stat-box">
+          <div class="stats-img">
+            <h1><b><span class="counter">100</span>+</b></h1>
+          </div>
+          <p>Custom Spaces tailored to individual needs and lifestyles.</p>
+        </div>
+      </div>
+      <div data-aos="fade-left" data-aos-delay="200">
+        <div class="stat-box">
+          <div class="stats-img">
+            <h1><b><span class="counter">650</span>+</b></h1>
+          </div>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+      <div data-aos="fade-left" data-aos-delay="300">
+        <div class="stat-box">
+          <div class="stats-img">
+            <h1><b><span class="counter">4,00,000</span>+</b></h1>
+          </div>
+          <p>Sq. Feet of Designed Spaces</p>
+        </div>
+      </div>
+      <!-- <div data-aos="fade-left" data-aos-delay="400">
+        <div class="stat-box">
+          <div class="stats-img">
+            <img src="img/upskill.png" alt="">
+          </div>
+          <p>Transformation of Corporate Environments and countless high-end residences.</p>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+<section class="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="d-flex align-items-center h-100 client-title">
+          <div class="testimonial-heading " data-aos="fade-left" data-aos-delay="300">
+            <h1>What Our Clients<br><b>Say About Us:</b></h1>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-8" data-aos="fade-right"data-aos-delay="600">
+        <h3 class="text-center">Corporate Client Testimonial</h3>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="testimonial-box">
+              <div class="icon">
+                <img src="img/quotes.png" alt="">
+                <p>Wyte Kyte transformed our office into an efficient, inspiring space that drives collaboration.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testimonial-box">
+              <div class="icon">
+                <img src="img/quotes.png" alt="">
+                <p>Wyte Kyte’s ability to seamlessly integrate our brand identity into the design of our new headquarters was nothing short of remarkable. Their specialized design expertise helped us create a space that fosters innovation and collaboration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-center">Residential Client Testimonial</h3>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="testimonial-box">
+              <div class="icon">
+                <img src="img/quotes.png" alt="">
+                <p>Our home now truly reflects our lifestyle, thanks to Wyte Kyte's innovative design and attention to detail.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testimonial-box">
+              <div class="icon">
+                <img src="img/quotes.png" alt="">
+                <p>Our new home is an absolute masterpiece. Wyte Kyte captured every detail of our vision and turned it into reality, creating a space that is both luxurious and deeply personal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about-author">
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-1"></div>
+      <div class="col-md-6">
+        <h1 data-aos="fade-up"><b>Renuka Sohal - Founder<br>& Lead Designer</b></h1>
+        <p data-aos="fade-up" data-aos-delay="300">With over two decades of experience, Renuka Sohal leads Wyte Kyte’s visionary design team, redefining interiors where functionality meets artistry. Her portfolio includes iconic luxury projects like DLF Magnolias and high-impact corporate fit-outs as co-founder of RSQR Architects. Renuka’s design philosophy marries the precision of science with the creativity of art, delivering bespoke solutions that seamlessly integrate purpose and elegance. Under her leadership, Wyte Kyte embodies “art in function”, transforming spaces into hubs of inspiration, connection, and innovation.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="author-img">
+          <img src="img/profile.png" data-aos="fade-down" data-aos-delay="600" alt="" class="w-100">
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</section>
+<section class="blogs pb-0">
+  <div class="container">
+    <h2 class="text-white" data-aos="fade-up">Blog / Articles</h2>
+    <p class="text-white mb-3" data-aos="fade-up">Latest insights on corporate and residential design trends, workspace optimization tips, <br>and luxury home decor ideas.</p>
+    <div class="blogs-section" data-aos="fade-down">
+      <div class="blogs-slider">
+        <div>
+          <div class="blogs-box">
+            <div class="blog-img">
+              <img src="img/blog1.png" class="w-100">
+            </div>
+            <div class="blogs-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="" class="read-blog">Read Blog <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="blogs-box">
+            <div class="blog-img">
+              <img src="img/blog2.png" class="w-100">
+            </div>
+            <div class="blogs-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="" class="read-blog">Read Blog <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="blogs-box">
+            <div class="blog-img">
+              <img src="img/blog3.png" class="w-100">
+            </div>
+            <div class="blogs-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="" class="read-blog">Read Blog <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="blogs-box">
+            <div class="blog-img">
+              <img src="img/blog3.png" class="w-100">
+            </div>
+            <div class="blogs-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="" class="read-blog">Read Blog <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="blogs-box">
+            <div class="blog-img">
+              <img src="img/blog3.png" class="w-100">
+            </div>
+            <div class="blogs-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="" class="read-blog">Read Blog <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bottom-cta bottom-two">
+  <div class=" py-5">
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-6">
+      </div>
+      <div class="col-md-6 h-100 d-flex justify-content-center">
+        <div class="d-flex justify-content-center align-items-end flex-column h-100  consultation-section">
+          <h1 class="text-end" data-aos="fade-right" data-aos-delay="300"><b>Ready to Transform Your Home<br>& Experience Opulence?</b></h1>
+          <a href="contact.html" class="book-consultation" data-aos="fade-right" data-aos-delay="600">Book A Consultation</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<footer class="" data-aos="fade-up">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="footer-head">
+          <img src="img/logo.png" class="mb-3" style="width: 500px;">
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                <p class="mb-0 text-white">Email</p>
+                <p class="text-white">contact@wytekyte.com</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <p class="mb-0 text-white">Phone</p>
+                <p class="text-white">+919891485443</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+      <div class="col-md-4">
+        <p>Crafting transformation spaces that inspire innovation and elevate experiences. Let's bring your vision to life- Connect with us today!</p>
+        <div class="footer-icons">
+          <a href="https://www.instagram.com/wytekyte/" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://in.linkedin.com/company/wyte-kyte" target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-youtube-play"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+<div class="bottom-footer">
+  <div>
+    <p><i class="fa fa-copyright"></i> 2025 Wyte Kyte All Rights Reserved</p>
+  </div>
+  <div>
+    <div class="footer-list">
+      <ul>
+        <li>HOME</li>
+        <li>SERVICE</li>
+        <li>JOIN US</li>
+        <li>ABOUT</li>
+        <li>CONTACT US</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<button id="scrollToTopBtn">
+  <i class="bi bi-chevron-up"></i>
+</button>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

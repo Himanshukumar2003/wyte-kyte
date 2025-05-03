@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text with Background Image</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <style>
+    .swiper {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbs-slider {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.thumbs-slider .swiper-slide {
+    width: 80px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.thumbs-slider .swiper-slide.swiper-slide-thumb-active {
+    opacity: 1;
+    border: 2px solid #000;
+}
+
+  </style>
+</head>
+<body>
+  <div class="swiper-container">
+        <!-- Effect Cards Main Slider -->
+        <div class="swiper thumbmain-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="https://placehold.co/800x400?text=thumb1" alt="Image 1"></div>
+                <div class="swiper-slide"><img src="https://placehold.co/800x400?text=thumb2" alt="Image 2"></div>
+                <div class="swiper-slide"><img src="https://placehold.co/800x400?text=thumb3" alt="Image 3"></div>
+            </div>
+        </div>
+
+        <!-- Thumbnails Slider -->
+        <div class="swiper thumbs-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="https://placehold.co/40x40?text=thumb1" alt="Thumb 1"></div>
+                <div class="swiper-slide"><img src="https://placehold.co/40x40?text=thumb2" alt="Thumb 2"></div>
+                <div class="swiper-slide"><img src="https://placehold.co/40x40?text=thumb3" alt="Thumb 3"></div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    var thumbSlider = new Swiper(".thumbs-slider", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        freeMode: true,
+        watchSlidesProgress: true
+    });
+
+    var mainSlider = new Swiper(".thumbmain-slider", {
+        effect: "cards",
+        grabCursor: true,
+        navigation: true,
+        thumbs: {
+            
+            swiper: thumbSlider
+        }
+    });
+});
+</script>
+
+</body>
+</html>
